@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<charset="UTF-8">
+<name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Gueen Gador] | My Portfolio</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;scroll-behavior:smooth}
+body{background:#0f1117;color:#ddd;line-height:1.7}
+a{text-decoration:none}
+header{padding:18px 8%;display:flex;justify-content:space-between;align-items:center;background:rgba(15,17,23,0.8);backdrop-filter:blur(10px);position:sticky;top:0;z-index:10;border-bottom:1px solid #222}
+.logo{color:#00ff88;font-family:'JetBrains Mono',monospace;font-weight:700}
+nav a{color:#aaa;margin-left:22px;font-size:14px;font-weight:600}
+nav a:hover{color:#00ff88}
+.hero{padding:80px 8%;display:flex;flex-wrap:wrap;align-items:center;gap:40px}
+.hero-text{flex:1;min-width:320px}
+.hero-text .hi{color:#00ff88;font-family:'JetBrains Mono',monospace;letter-spacing:2px;font-size:14px}
+.hero-text h1{font-size:48px;color:white;line-height:1.1;margin:15px 0}
+.hero-text h1 span{color:#00ff88}
+.hero-text p{color:#999;max-width:550px;margin-top:15px}
+.hero-img{flex:1;min-width:300px;text-align:center}
+.hero-img img{width:340px;max-width:90%;border-radius:20px;border:2px solid #222;box-shadow:0 0 40px rgba(0,255,136,0.15)}
+.btn{display:inline-block;padding:12px 26px;border-radius:8px;font-weight:700;margin-top:25px;transition:.3s;font-size:14px}
+.btn-green{background:#00ff88;color:#000}
+.btn-outline{border:1px solid #333;color:white;margin-left:10px}
+.btn:hover{transform:translateY(-2px)}
+.container{max-width:1100px;margin:auto;padding:0 8% 60px}
+h2{color:white;font-size:28px;margin-top:70px}
+h2 span{color:#00ff88}
+.card{background:#181a23;border:1px solid #222;border-radius:16px;padding:25px;margin-top:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.tech span{display:inline-block;background:#1f222e;border:1px solid #2a2d3a;color:#00ff88;padding:6px 14px;border-radius:20px;margin:6px;font-size:12px;font-family:'JetBrains Mono',monospace}
+.code-box{background:#0a0a0f;border:1px solid #222;border-radius:10px;padding:15px;font-family:'JetBrains Mono',monospace;font-size:13px;color:#aaa;margin-top:15px;overflow:auto}
+.project{transition:.3s}
+.project:hover{border-color:#00ff88;transform:translateY(-4px)}
+.progress{margin-top:18px}
+.progress label{font-size:13px;color:#aaa;display:flex;justify-content:space-between}
+.bar{height:8px;background:#222;border-radius:10px;margin-top:6px;overflow:hidden}
+.bar i{display:block;height:100%;background:#00ff88;border-radius:10px}
+footer{text-align:center;padding:35px;border-top:1px solid #222;margin-top:60px;color:#666;font-size:13px;font-family:'JetBrains Mono',monospace}
+@media(max-width:700px){.hero-text h1{font-size:32px} header{flex-direction:column;gap:10px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">&lt; BSIT /&gt;</div>
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="hero-text">
+    <div class="hi">HELLO, MY NAME IS</div>
+    <h1>[Gueen Gador]<br><span>BSIT Student</span></h1>
+    <p>I am a <b>Bachelor of Science in Information Technology</b> student from Central Philippines State University. I love coding, designing, and solving problems with technology. My goal is to become a Full-Stack Developer / IT Professional.</p>
+    <a href="#projects" class="btn btn-green">View My Projects</a>
+    <a href="#" class="btn btn-outline">Download CV</a>
+
+    <div class="code-box">
+      > const student = {<br>
+      &nbsp;&nbsp; name: "[Gueen Gador]",<br>
+      &nbsp;&nbsp; course: "BSIT",<br>
+      &nbsp;&nbsp; year: "2nd Year",<br>
+      &nbsp;&nbsp; passion: "Design"<br>
+      }<br>
+    </div>
+  </div>
+  <div class="hero-img">
+    <img src="gueen.jpg" alt="My Photo">
+  </div>
+</div>
+
+<div class="container">
+
+  <h2>01. <span>About Me</span></h2>
+  </html> <div class="card">
+    <p>I'm <b>[Gueen Gador]</b>, BSIT student at <b>[Central Philippines State University]</b>. I am currently in my <b>[2nd Year]</b>. I enjoy learning new programming languages, building websites, and exploring how technology can help people. I am hardworking, willing to learn, and I work well in a team.</p>
+
+ 
+  <h2>02. <span>Tech Stack</span></h2>
+  <div class="card">
+    <p style="color:#999;font-size:14px;margin-bottom:10px">Languages & Tools I Use:</p>
+    <div class="tech">
+      <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>PHP</span><span>Python</span><span>Java</span><span>MySQL</span><span>React</span><span>Git & GitHub</span><span>Canva</span><span>Figma</span>
+    </div>
+    <div class="progress"><label><span>HTML / CSS</span><span>90%</span></label><div class="bar"><i style="width:90%"></i></div></div>
+    <div class="progress"><label><span>JavaScript / PHP</span><span>75%</span></label><div class="bar"><i style="width:75%"></i></div></div>
+    <div class="progress"><label><span>MySQL / Database</span><span>80%</span></label><div class="bar"><i style="width:80%"></i></div></div>
+  </div>
+
+  <h2>03. <span>Projects</span></h2>
+  <div class="grid" id="projects">
+    <div class="card project"><h3 style="color:white">📚 Student Management System</h3><p style="color:#999;font-size:14px;margin-top:10px">Made with PHP & MySQL. For managing student records, grades, and attendance.</p><br><div class="tech"><span>PHP</span><span>MySQL</span></div></div>
+    <div class="card project"><h3 style="color:white">🛒 E-Commerce Website</h3><p style="color:#999;font-size:14px;margin-top:10px">Responsive online shop with cart and checkout, using HTML, CSS, JS.</p><br><div class="tech"><span>HTML</span><span>CSS</span><span>JS</span></div></div>
+    <div class="card project"><h3 style="color:white">🌤️ Weather App</h3><p style="color:#999;font-size:14px;margin-top:10px">Simple weather app that fetches real-time data from API using JavaScript.</p><br><div class="tech"><span>API</span><span>JavaScript</span></div></div>
+  </div>
+
+  <h2>04. <span>Education</span></h2>
+  <div class="grid">
+    <div class="card"><b style="color:white">BS in Information Technology</b><br><span style="color:#999">[Central Philippines State University] | 2026 - Present</span></div>
+
+    <div class="card"><b style="color:white">Senior High School - ICT</b><br><span style="color:#999">[Vallehermoso National High School] | 2022 - 2023 </span></div>
+  </div>
+
+  <h2 id="contact">05. <span>Contact</span></h2>
+  <div class="card" style="text-align:center">
+    <p style="color:#999">I'm open for OJT, collaboration, and freelance projects.</p>
+    <p style="margin-top:15px">📧 gueengador292004@gmail.com</p>
+    <p>📱 0915-735-1556</p>
+    <p>📍 Vallehermoso Negros Oriental, Philippines</p>
+    <p>🔗 github.com/yourusername | fb.com/yourname</p>
+    <a href="gueengador292004@gmail.com" class="btn btn-green">Send Email</a>
+  </div>
+</div>
+
+<footer>
+  Designed & Built by [Gueen Gador] — BSIT Student © 2026
+</footer>
+
+</body>
+ </div>
